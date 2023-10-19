@@ -51,11 +51,11 @@ Types:
 		demo.display();
 		demo.display1();
 		demo.display2();
-//		demo.display3();		//cant be accesed because its private
+//		demo.display3();		//cant be accesed because its private and it is in another class
 		
 		AccessModifiersDemo1 accessModifiersDemo = new AccessModifiersDemo1();
 		accessModifiersDemo.display4();    // accessing private method within the class
 	}
 
 }
-	
+//whenever we want to access amethod without craeting an object use Static
